@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My Creative Portfolio" />
+  <title>Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="navbar container">
+      <div class="logo"><a href="#">MyPortfolio<span>.</span></a></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Mythili Bandaru</span></h1>
+      <p>I create modern, responsive, and visually stunning websites.</p>
+      <a href="#projects" class="cta">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/profile.jpg" alt="Profile" class="profile-img" />
+        <div class="bio">
+          <p>
+            I'm a student passionate about web development and problem solving, dedicated to creating innovative and user-friendly digital experiences.
+            I love turning ideas into functional websites while continuously learning new technologies to sharpen my skills.
+          </p>
+          <a href="#contact" class="cta glow">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>HTML & CSS</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Node.js</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Problem Solving</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="95%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Project 1" />
+          <div class="project-info">
+            <h3>Haven'Dine</h3>
+            <p>A modern and responsive restaurant website designed to showcase menus, ambiance, and online reservations seamlessly built using React js </p>
+            <a href="https://your-project-link-1.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project2.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Project Two</h3>
+            <p>A vibrant portfolio site made with HTML, CSS & JS</p>
+            <a href="https://your-project-link-2.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project3.jpg" alt="Project 3" />
+          <div class="project-info">
+            <h3>Project Three</h3>
+            <p>An elegant e-commerce store built with Vue & Firebase</p>
+            <a href="https://your-project-link-3.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="cert-cards">
+        <div class="cert-card">
+          <h3>Web Development Bootcamp</h3>
+          <p>Completed a full-stack web development course covering HTML, CSS, JavaScript, and React.</p>
+        </div>
+        <div class="cert-card">
+          <h3>JavaScript Mastery</h3>
+          <p>Advanced training on JavaScript ES6+, DOM manipulation, and modern frameworks.</p>
+        </div>
+        <div class="cert-card">
+          <h3>Problem Solving & Algorithms</h3>
+          <p>Certificate demonstrating expertise in algorithmic thinking and coding challenges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="cta glow">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mythili. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
